@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model;
+package org.eu.trixtertempdrive.gxtrm.model;
 
 import java.util.ArrayList;
 public class MoviesResponseFromTMDB {

@@ -1,6 +1,6 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
-import static com.theflexproject.thunder.Constants.TMDB_BACKDROP_IMAGE_BASE_URL;
+import static org.eu.trixtertempdrive.gxtrm.Constants.TMDB_BACKDROP_IMAGE_BASE_URL;
 
 import android.content.Context;
 import android.content.Intent;
@@ -29,17 +29,17 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
-import com.theflexproject.thunder.Constants;
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.adapter.FileItemAdapter;
-import com.theflexproject.thunder.adapter.ScaleCenterItemLayoutManager;
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.MyMedia;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
-import com.theflexproject.thunder.model.TVShowInfo.TVShow;
-import com.theflexproject.thunder.model.TVShowInfo.TVShowSeasonDetails;
-import com.theflexproject.thunder.player.PlayerActivity;
-import com.theflexproject.thunder.utils.StringUtils;
+import org.eu.trixtertempdrive.gxtrm.Constants;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.adapter.FileItemAdapter;
+import org.eu.trixtertempdrive.gxtrm.adapter.ScaleCenterItemLayoutManager;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShowSeasonDetails;
+import org.eu.trixtertempdrive.gxtrm.player.PlayerActivity;
+import org.eu.trixtertempdrive.gxtrm.utils.StringUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

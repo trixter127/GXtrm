@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model;
+package org.eu.trixtertempdrive.gxtrm.model;
 
 public class SpokenLanguage {
     public String english_name;

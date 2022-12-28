@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model.tmdbImages;
+package org.eu.trixtertempdrive.gxtrm.model.tmdbImages;
 
 
 import java.util.ArrayList;

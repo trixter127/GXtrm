@@ -1,6 +1,6 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
-import com.theflexproject.thunder.model.TVShowInfo.TVShow;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
 import android.app.Activity;
 import android.content.Context;
@@ -17,9 +17,9 @@ import androidx.fragment.app.DialogFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.adapter.FileItemDialogAdapter;
-import com.theflexproject.thunder.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.adapter.FileItemDialogAdapter;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
 
 import java.util.List;
 

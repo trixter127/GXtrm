@@ -1,22 +1,22 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
-import static com.theflexproject.thunder.Constants.CF_CACHE_TOKEN;
-import static com.theflexproject.thunder.Constants.SIMPLE_PROGRAM_DOWNLOAD_API;
-import static com.theflexproject.thunder.MainActivity.context;
-import static com.theflexproject.thunder.utils.SendGetRequestTMDB.sendGet2;
-import static com.theflexproject.thunder.utils.SendGetRequestTMDB.sendGetTVShow;
+import static org.eu.trixtertempdrive.gxtrm.Constants.CF_CACHE_TOKEN;
+import static org.eu.trixtertempdrive.gxtrm.Constants.SIMPLE_PROGRAM_DOWNLOAD_API;
+import static org.eu.trixtertempdrive.gxtrm.MainActivity.context;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendGetRequestTMDB.sendGet2;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendGetRequestTMDB.sendGetTVShow;
 
 import android.os.Build;
 import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.File;
-import com.theflexproject.thunder.model.Movie;
-import com.theflexproject.thunder.model.ResFormat;
-import com.theflexproject.thunder.model.SimpleLink;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.File;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.ResFormat;
+import org.eu.trixtertempdrive.gxtrm.model.SimpleLink;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

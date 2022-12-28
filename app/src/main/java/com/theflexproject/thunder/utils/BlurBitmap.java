@@ -1,4 +1,4 @@
-//package com.theflexproject.thunder.utils;
+//package org.eu.trixtertempdrive.gxtrm.utils;
 //
 //import android.graphics.Bitmap;
 //

@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.database;
+package org.eu.trixtertempdrive.gxtrm.database;
 
 import android.content.Context;
 

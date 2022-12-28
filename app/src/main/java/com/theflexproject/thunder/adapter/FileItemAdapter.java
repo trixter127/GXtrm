@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.adapter;
+package org.eu.trixtertempdrive.gxtrm.adapter;
 
 import static android.content.Context.DOWNLOAD_SERVICE;
 
@@ -26,15 +26,15 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.fragments.ChangeTMDBFragment;
-import com.theflexproject.thunder.model.Movie;
-import com.theflexproject.thunder.model.MyMedia;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
-import com.theflexproject.thunder.player.PlayerActivity;
-import com.theflexproject.thunder.utils.MovieQualityExtractor;
-import com.theflexproject.thunder.utils.sizetoReadablesize;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.fragments.ChangeTMDBFragment;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.player.PlayerActivity;
+import org.eu.trixtertempdrive.gxtrm.utils.MovieQualityExtractor;
+import org.eu.trixtertempdrive.gxtrm.utils.sizetoReadablesize;
 
 import java.util.List;
 

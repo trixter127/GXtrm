@@ -1,9 +1,9 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestGDIndex;
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestGoIndex;
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestMapleIndex;
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestSimpleProgramIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestGDIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestGoIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestMapleIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestSimpleProgramIndex;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,9 +19,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.IndexLink;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.IndexLink;
 
 
 public class AddNewIndexFragment extends BaseFragment {

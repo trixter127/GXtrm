@@ -1,8 +1,8 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
-import static com.theflexproject.thunder.utils.ParseUtils.BRACKETS;
-import static com.theflexproject.thunder.utils.ParseUtils.removeAfterEmptyParenthesis;
-import static com.theflexproject.thunder.utils.ParseUtils.yearExtractor;
+import static org.eu.trixtertempdrive.gxtrm.utils.ParseUtils.BRACKETS;
+import static org.eu.trixtertempdrive.gxtrm.utils.ParseUtils.removeAfterEmptyParenthesis;
+import static org.eu.trixtertempdrive.gxtrm.utils.ParseUtils.yearExtractor;
 
 import android.util.Pair;
 

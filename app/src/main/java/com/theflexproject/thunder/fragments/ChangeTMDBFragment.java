@@ -1,8 +1,8 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
-import static com.theflexproject.thunder.utils.SendGetRequestTMDB.tmdbGetByID;
-import static com.theflexproject.thunder.utils.StringUtils.tmdbIdExtractor_FromLink;
-import static com.theflexproject.thunder.utils.StringUtils.tmdbIdExtractor_FromLink_TV;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendGetRequestTMDB.tmdbGetByID;
+import static org.eu.trixtertempdrive.gxtrm.utils.StringUtils.tmdbIdExtractor_FromLink;
+import static org.eu.trixtertempdrive.gxtrm.utils.StringUtils.tmdbIdExtractor_FromLink_TV;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,11 +16,11 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.model.Movie;
-import com.theflexproject.thunder.model.MyMedia;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
-import com.theflexproject.thunder.model.TVShowInfo.TVShow;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
 
 
 public class ChangeTMDBFragment extends BaseFragment {

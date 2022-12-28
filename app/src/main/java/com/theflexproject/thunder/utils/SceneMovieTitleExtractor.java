@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

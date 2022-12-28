@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.database;
+package org.eu.trixtertempdrive.gxtrm.database;
 
 import android.util.Log;
 
@@ -6,10 +6,10 @@ import androidx.room.TypeConverter;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.theflexproject.thunder.model.Data;
-import com.theflexproject.thunder.model.Genre;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
-import com.theflexproject.thunder.model.TVShowInfo.Season;
+import org.eu.trixtertempdrive.gxtrm.model.Data;
+import org.eu.trixtertempdrive.gxtrm.model.Genre;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Season;
 
 import java.util.ArrayList;
 import java.util.Arrays;

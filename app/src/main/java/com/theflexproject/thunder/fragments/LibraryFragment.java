@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,8 +13,8 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.adapter.FragmentViewPagerAdapter;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.adapter.FragmentViewPagerAdapter;
 
 public class LibraryFragment extends BaseFragment {
 

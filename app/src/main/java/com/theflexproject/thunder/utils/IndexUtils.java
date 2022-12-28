@@ -1,18 +1,18 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
-import static com.theflexproject.thunder.MainActivity.context;
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestGDIndex;
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestGoIndex;
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestMapleIndex;
-import static com.theflexproject.thunder.utils.SendPostRequest.postRequestSimpleProgramIndex;
+import static org.eu.trixtertempdrive.gxtrm.MainActivity.context;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestGDIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestGoIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestMapleIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.SendPostRequest.postRequestSimpleProgramIndex;
 
 import android.content.Context;
 
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.IndexLink;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
-import com.theflexproject.thunder.model.TVShowInfo.TVShow;
-import com.theflexproject.thunder.model.TVShowInfo.TVShowSeasonDetails;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.IndexLink;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShowSeasonDetails;
 
 import java.util.List;
 

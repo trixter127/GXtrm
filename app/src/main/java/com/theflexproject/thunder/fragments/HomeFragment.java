@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,14 +11,14 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.adapter.BannerRecyclerAdapter;
-import com.theflexproject.thunder.adapter.MediaAdapter;
-import com.theflexproject.thunder.adapter.ScaleCenterItemLayoutManager;
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.Movie;
-import com.theflexproject.thunder.model.MyMedia;
-import com.theflexproject.thunder.model.TVShowInfo.TVShow;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.adapter.BannerRecyclerAdapter;
+import org.eu.trixtertempdrive.gxtrm.adapter.MediaAdapter;
+import org.eu.trixtertempdrive.gxtrm.adapter.ScaleCenterItemLayoutManager;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
 
 import java.util.ArrayList;
 import java.util.List;

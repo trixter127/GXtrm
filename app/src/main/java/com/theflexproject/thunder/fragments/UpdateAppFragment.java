@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -12,8 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.model.GitHubResponse;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.model.GitHubResponse;
 
 public class UpdateAppFragment extends BaseFragment {
 

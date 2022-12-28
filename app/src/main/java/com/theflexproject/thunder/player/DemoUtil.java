@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.player;
+package org.eu.trixtertempdrive.gxtrm.player;
 
 import android.content.Context;
 

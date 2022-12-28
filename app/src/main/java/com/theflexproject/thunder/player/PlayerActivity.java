@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.player;
+package org.eu.trixtertempdrive.gxtrm.player;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -30,7 +30,7 @@ import com.google.android.exoplayer2.ui.StyledPlayerControlView;
 import com.google.android.exoplayer2.ui.StyledPlayerView;
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.util.EventLogger;
-import com.theflexproject.thunder.R;
+import org.eu.trixtertempdrive.gxtrm.R;
 
 public class PlayerActivity extends AppCompatActivity implements View.OnClickListener, StyledPlayerView.ControllerVisibilityListener {
 

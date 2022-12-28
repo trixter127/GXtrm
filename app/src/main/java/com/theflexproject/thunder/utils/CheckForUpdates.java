@@ -1,11 +1,11 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
 import android.util.Log;
 
 import com.google.gson.Gson;
-import com.theflexproject.thunder.BuildConfig;
-import com.theflexproject.thunder.fragments.BaseFragment;
-import com.theflexproject.thunder.model.GitHubResponse;
+import org.eu.trixtertempdrive.gxtrm.BuildConfig;
+import org.eu.trixtertempdrive.gxtrm.fragments.BaseFragment;
+import org.eu.trixtertempdrive.gxtrm.model.GitHubResponse;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import java.net.URL;
 
 public class CheckForUpdates extends BaseFragment {
     public GitHubResponse[] checkForUpdates() throws IOException {
-        String GET_URL = "https://api.github.com/repos/anujd64/Thunder/releases";
+        String GET_URL = "https://api.github.com/repos/anujd64/GXtrm/releases";
         int versionCode = BuildConfig.VERSION_CODE;
         String versionName = BuildConfig.VERSION_NAME;
         GitHubResponse[] gitHubResponse;

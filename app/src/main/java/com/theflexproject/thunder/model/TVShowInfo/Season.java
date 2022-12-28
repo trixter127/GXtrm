@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model.TVShowInfo;
+package org.eu.trixtertempdrive.gxtrm.model.TVShowInfo;
 
 public class Season {
     public String air_date;

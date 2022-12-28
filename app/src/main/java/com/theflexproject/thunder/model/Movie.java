@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model;
+package org.eu.trixtertempdrive.gxtrm.model;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;

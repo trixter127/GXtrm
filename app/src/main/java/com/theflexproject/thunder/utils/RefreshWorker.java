@@ -1,7 +1,7 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
 
-import static com.theflexproject.thunder.utils.IndexUtils.refreshIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.IndexUtils.refreshIndex;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
 
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.IndexLink;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.IndexLink;
 
 import java.util.List;
 

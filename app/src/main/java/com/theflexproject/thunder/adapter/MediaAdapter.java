@@ -1,5 +1,5 @@
 
-package com.theflexproject.thunder.adapter;
+package org.eu.trixtertempdrive.gxtrm.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -18,12 +18,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
-import com.theflexproject.thunder.Constants;
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.model.Movie;
-import com.theflexproject.thunder.model.MyMedia;
-import com.theflexproject.thunder.model.TVShowInfo.TVShow;
-import com.theflexproject.thunder.model.TVShowInfo.TVShowSeasonDetails;
+import org.eu.trixtertempdrive.gxtrm.Constants;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShowSeasonDetails;
 
 import java.util.List;
 
@@ -149,9 +149,9 @@ public class MediaAdapter extends RecyclerView.Adapter<MediaAdapter.MediaAdapter
         itemView.startAnimation(popIn);
     }
 }
-//package com.theflexproject.thunder.adapter;
+//package org.eu.trixtertempdrive.gxtrm.adapter;
 //
-//import static com.theflexproject.thunder.Constants.TMDB_IMAGE_BASE_URL;
+//import static org.eu.trixtertempdrive.gxtrm.Constants.TMDB_IMAGE_BASE_URL;
 //
 //import android.content.Context;
 //import android.graphics.Color;
@@ -168,12 +168,12 @@ public class MediaAdapter extends RecyclerView.Adapter<MediaAdapter.MediaAdapter
 //import com.bumptech.glide.Glide;
 //import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 //import com.bumptech.glide.request.RequestOptions;
-//import com.theflexproject.thunder.Constants;
-//import com.theflexproject.thunder.R;
-//import com.theflexproject.thunder.model.Movie;
-//import com.theflexproject.thunder.model.MyMedia;
-//import com.theflexproject.thunder.model.TVShowInfo.TVShow;
-//import com.theflexproject.thunder.model.TVShowInfo.TVShowSeasonDetails;
+//import org.eu.trixtertempdrive.gxtrm.Constants;
+//import org.eu.trixtertempdrive.gxtrm.R;
+//import org.eu.trixtertempdrive.gxtrm.model.Movie;
+//import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+//import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
+//import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShowSeasonDetails;
 //
 //import java.util.List;
 //

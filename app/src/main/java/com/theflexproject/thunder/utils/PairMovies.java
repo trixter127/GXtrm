@@ -1,6 +1,6 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
-import com.theflexproject.thunder.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
-import com.theflexproject.thunder.model.tmdbImages.Logo;
+import org.eu.trixtertempdrive.gxtrm.model.tmdbImages.Logo;
 
 import java.util.Comparator;
 

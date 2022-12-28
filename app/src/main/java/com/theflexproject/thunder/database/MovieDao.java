@@ -1,11 +1,11 @@
-package com.theflexproject.thunder.database;
+package org.eu.trixtertempdrive.gxtrm.database;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.theflexproject.thunder.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
 
 import java.util.List;
 

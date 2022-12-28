@@ -1,4 +1,4 @@
-//package com.theflexproject.thunder.adapter;
+//package org.eu.trixtertempdrive.gxtrm.adapter;
 //
 //import android.content.Context;
 //import android.graphics.Color;
@@ -17,9 +17,9 @@
 //import com.bumptech.glide.Glide;
 //import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 //import com.bumptech.glide.request.RequestOptions;
-//import com.theflexproject.thunder.Constants;
-//import com.theflexproject.thunder.R;
-//import com.theflexproject.thunder.model.Movie;
+//import org.eu.trixtertempdrive.gxtrm.Constants;
+//import org.eu.trixtertempdrive.gxtrm.R;
+//import org.eu.trixtertempdrive.gxtrm.model.Movie;
 //
 //import java.util.List;
 //

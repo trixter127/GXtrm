@@ -1,6 +1,6 @@
-package com.theflexproject.thunder;
+package org.eu.trixtertempdrive.gxtrm;
 
-import static com.theflexproject.thunder.utils.UpdateUtils.checkForUpdates;
+import static org.eu.trixtertempdrive.gxtrm.utils.UpdateUtils.checkForUpdates;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -20,12 +20,12 @@ import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.theflexproject.thunder.database.AppDatabase;
-import com.theflexproject.thunder.fragments.HomeFragment;
-import com.theflexproject.thunder.fragments.LibraryFragment;
-import com.theflexproject.thunder.fragments.SearchFragment;
-import com.theflexproject.thunder.fragments.SettingsFragment;
-import com.theflexproject.thunder.utils.RefreshWorker;
+import org.eu.trixtertempdrive.gxtrm.database.AppDatabase;
+import org.eu.trixtertempdrive.gxtrm.fragments.HomeFragment;
+import org.eu.trixtertempdrive.gxtrm.fragments.LibraryFragment;
+import org.eu.trixtertempdrive.gxtrm.fragments.SearchFragment;
+import org.eu.trixtertempdrive.gxtrm.fragments.SettingsFragment;
+import org.eu.trixtertempdrive.gxtrm.utils.RefreshWorker;
 
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;

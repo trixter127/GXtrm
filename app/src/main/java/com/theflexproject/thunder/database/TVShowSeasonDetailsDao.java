@@ -1,11 +1,11 @@
-package com.theflexproject.thunder.database;
+package org.eu.trixtertempdrive.gxtrm.database;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.theflexproject.thunder.model.TVShowInfo.TVShowSeasonDetails;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShowSeasonDetails;
 
 import java.util.List;
 

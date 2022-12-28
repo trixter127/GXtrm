@@ -1,9 +1,9 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
 
-import static com.theflexproject.thunder.utils.ParseUtils.getCountryOfOrigin;
-import static com.theflexproject.thunder.utils.ParseUtils.parenthesisYearExtractor;
-import static com.theflexproject.thunder.utils.ParseUtils.removeAfterEmptyParenthesis;
+import static org.eu.trixtertempdrive.gxtrm.utils.ParseUtils.getCountryOfOrigin;
+import static org.eu.trixtertempdrive.gxtrm.utils.ParseUtils.parenthesisYearExtractor;
+import static org.eu.trixtertempdrive.gxtrm.utils.ParseUtils.removeAfterEmptyParenthesis;
 
 import android.util.Pair;
 

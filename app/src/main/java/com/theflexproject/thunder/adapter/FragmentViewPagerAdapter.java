@@ -1,12 +1,12 @@
-package com.theflexproject.thunder.adapter;
+package org.eu.trixtertempdrive.gxtrm.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.theflexproject.thunder.fragments.FilesLibraryFragment;
-import com.theflexproject.thunder.fragments.MovieLibraryFragment;
-import com.theflexproject.thunder.fragments.TvShowsLibraryFragment;
+import org.eu.trixtertempdrive.gxtrm.fragments.FilesLibraryFragment;
+import org.eu.trixtertempdrive.gxtrm.fragments.MovieLibraryFragment;
+import org.eu.trixtertempdrive.gxtrm.fragments.TvShowsLibraryFragment;
 
 public class FragmentViewPagerAdapter extends FragmentStateAdapter {
 

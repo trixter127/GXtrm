@@ -1,4 +1,4 @@
-package com.theflexproject.thunder;
+package org.eu.trixtertempdrive.gxtrm;
 
 import java.util.Random;
 

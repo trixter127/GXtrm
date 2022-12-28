@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -20,10 +20,10 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.SwitchCompat;
 
 import com.google.android.material.switchmaterial.SwitchMaterial;
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.model.GitHubResponse;
-import com.theflexproject.thunder.utils.CheckForUpdates;
-import com.theflexproject.thunder.utils.SettingsManager;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.model.GitHubResponse;
+import org.eu.trixtertempdrive.gxtrm.utils.CheckForUpdates;
+import org.eu.trixtertempdrive.gxtrm.utils.SettingsManager;
 
 import java.io.IOException;
 import java.util.concurrent.Executors;
@@ -157,9 +157,9 @@ public class SettingsFragment extends BaseFragment {
 //                });
 
 
-        discord.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://discord.gg/NWrz5euMJs"))));
-        github.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/anujd64/Thunder"))));
-        telegram.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/+qbLDmvEgC65lMWI1"))));
+        discord.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://trixter127.t.me/"))));
+        github.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/trixter127/GXtrm"))));
+        telegram.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://trixter127.t.me/"))));
 
     }
 

@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
 import android.util.Log;
 import android.util.Pair;

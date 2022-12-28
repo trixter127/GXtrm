@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:paddingVertical="10dp"
     android:orientation="vertical"
-    tools:context="com.theflexproject.thunder.fragments.HomeFragment">
+    tools:context="org.eu.trixtertempdrive.gxtrm.fragments.HomeFragment">
 
     <TextView
         android:id="@+id/recyclerTitleInHomeItem"

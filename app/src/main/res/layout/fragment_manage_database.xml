@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.theflexproject.thunder.fragments.ManageIndexesFragment">
+    tools:context="org.eu.trixtertempdrive.gxtrm.fragments.ManageIndexesFragment">
 
     <TextView
         android:id="@+id/DBTitle"

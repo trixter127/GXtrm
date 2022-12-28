@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.adapter.ArchivedAdapters;
+package org.eu.trixtertempdrive.gxtrm.adapter.ArchivedAdapters;
 
 //public class MediaAdapter extends RecyclerView.Adapter<TVShowRecyclerAdapter.TVShowRecyclerAdapterHolder> {
 //

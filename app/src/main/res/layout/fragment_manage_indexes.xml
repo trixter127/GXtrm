@@ -8,7 +8,7 @@
     android:clickable="true"
     android:focusable="true"
     android:background="@color/black"
-    tools:context="com.theflexproject.thunder.fragments.ManageIndexesFragment">
+    tools:context="org.eu.trixtertempdrive.gxtrm.fragments.ManageIndexesFragment">
 
 
     <TextView

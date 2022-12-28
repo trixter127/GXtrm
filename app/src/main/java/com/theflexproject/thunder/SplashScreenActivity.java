@@ -1,4 +1,4 @@
-package com.theflexproject.thunder;
+package org.eu.trixtertempdrive.gxtrm;
 
 import android.content.Intent;
 import android.os.Bundle;

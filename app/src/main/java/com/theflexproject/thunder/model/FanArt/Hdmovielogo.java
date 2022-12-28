@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model.FanArt;
+package org.eu.trixtertempdrive.gxtrm.model.FanArt;
 
 public class Hdmovielogo {
     public String id;

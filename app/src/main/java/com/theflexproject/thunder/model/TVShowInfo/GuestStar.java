@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model.TVShowInfo;
+package org.eu.trixtertempdrive.gxtrm.model.TVShowInfo;
 
 public class GuestStar {
     public String character;

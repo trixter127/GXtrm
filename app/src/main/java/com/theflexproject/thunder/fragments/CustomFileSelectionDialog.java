@@ -1,4 +1,4 @@
-//package com.theflexproject.thunder.fragments;
+//package org.eu.trixtertempdrive.gxtrm.fragments;
 //
 //import android.os.Bundle;
 //import android.view.LayoutInflater;

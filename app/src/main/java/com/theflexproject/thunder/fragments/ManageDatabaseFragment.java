@@ -1,6 +1,6 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
-import static com.theflexproject.thunder.utils.StorageUtils.verifyStoragePermissions;
+import static org.eu.trixtertempdrive.gxtrm.utils.StorageUtils.verifyStoragePermissions;
 
 import android.Manifest;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.room.Room;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.database.AppDatabase;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.database.AppDatabase;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -55,7 +55,7 @@ public class ManageDatabaseFragment extends BaseFragment {
         importDatabase.setOnClickListener(v -> {
             mActivity.deleteDatabase("MyToDos");
 
-//            File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/Thunder");
+//            File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/GXtrm");
 //            File[] listOfFiles = folder.listFiles();
 //
 //            File database = mActivity.getDatabasePath("MyToDos");
@@ -77,7 +77,7 @@ public class ManageDatabaseFragment extends BaseFragment {
 //                    }
 //                }
 
-            File backup = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/Thunder" , "ThunderBackup.db");
+            File backup = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/GXtrm" , "GXtrmBackup.db");
             File database = mActivity.getDatabasePath("MyToDos");
             System.out.println("paths" + backup + "\npath2 " + database);
 
@@ -114,12 +114,12 @@ public class ManageDatabaseFragment extends BaseFragment {
 
             File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
 
-            File backupDB = new File(folder +"/Thunder", "ThunderBackup.db");
+            File backupDB = new File(folder +"/GXtrm", "GXtrmBackup.db");
             File currentDB = new File(mActivity.getDatabasePath("MyToDos").toString());
 
             try {
 
-                File backupDir = new File(folder+"/Thunder");
+                File backupDir = new File(folder+"/GXtrm");
                 if(!backupDir.exists()) backupDir.mkdir();
                 if (currentDB.exists()) {
                     FileChannel src = new FileInputStream(currentDB).getChannel();

@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.adapter;
+package org.eu.trixtertempdrive.gxtrm.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,11 +8,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.model.Movie;
-import com.theflexproject.thunder.model.MyMedia;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
-import com.theflexproject.thunder.utils.MovieQualityExtractor;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.utils.MovieQualityExtractor;
 
 import java.util.List;
 

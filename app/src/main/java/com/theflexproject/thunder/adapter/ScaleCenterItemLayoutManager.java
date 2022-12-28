@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.adapter;
+package org.eu.trixtertempdrive.gxtrm.adapter;
 
 import android.content.Context;
 import android.view.View;

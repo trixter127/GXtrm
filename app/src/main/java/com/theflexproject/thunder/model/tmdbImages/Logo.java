@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model.tmdbImages;
+package org.eu.trixtertempdrive.gxtrm.model.tmdbImages;
 
 public class Logo {
     public double aspect_ratio;

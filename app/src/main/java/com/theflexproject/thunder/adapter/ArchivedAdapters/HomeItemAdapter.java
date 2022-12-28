@@ -1,4 +1,4 @@
-//package com.theflexproject.thunder.adapter;
+//package org.eu.trixtertempdrive.gxtrm.adapter;
 //
 //import android.content.Context;
 //import android.view.LayoutInflater;
@@ -13,14 +13,14 @@
 //import androidx.recyclerview.widget.LinearLayoutManager;
 //import androidx.recyclerview.widget.RecyclerView;
 //
-//import com.theflexproject.thunder.R;
-//import com.theflexproject.thunder.fragments.MovieDetailsFragment;
-//import com.theflexproject.thunder.fragments.TvShowDetailsFragment;
-//import com.theflexproject.thunder.model.Movie;
-//import com.theflexproject.thunder.model.TVShowInfo.TVShow;
-//import com.theflexproject.thunder.utils.Pair;
-//import com.theflexproject.thunder.utils.PairMovies;
-//import com.theflexproject.thunder.utils.PairTvShows;
+//import org.eu.trixtertempdrive.gxtrm.R;
+//import org.eu.trixtertempdrive.gxtrm.fragments.MovieDetailsFragment;
+//import org.eu.trixtertempdrive.gxtrm.fragments.TvShowDetailsFragment;
+//import org.eu.trixtertempdrive.gxtrm.model.Movie;
+//import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.TVShow;
+//import org.eu.trixtertempdrive.gxtrm.utils.Pair;
+//import org.eu.trixtertempdrive.gxtrm.utils.PairMovies;
+//import org.eu.trixtertempdrive.gxtrm.utils.PairTvShows;
 //
 //import java.util.ArrayList;
 //import java.util.List;

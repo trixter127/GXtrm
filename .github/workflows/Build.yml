@@ -1,0 +1,79 @@
+name: GXtrm Build
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "default repository trixter127/GXtrm"
+        required: false
+        default: "trixter127/GXtrm"
+      rf:
+        description: "branch default main"
+        required: false
+        default: "main"
+jobs:
+  Gradle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GXtrm ⚡
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.inputs.checkoutrepo }}
+          ref: ${{ github.event.inputs.rf }}
+      - name: LF gradlew line endings
+        run: sed -i 's/\r$//' gradlew
+        shell: bash
+      - name: Build release APK
+        run: bash gradlew assembleRelease
+        shell: bash
+      - name: Build release bundle
+        run: bash gradlew bundleRelease
+        shell: bash
+      - name: Get tag
+        id: tag
+        run: |
+          tag="$(git rev-parse --short HEAD)_$(date +%s)"
+          echo "::set-output name=tag::$tag"
+        shell: bash
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITUB_TOKEN }}
+        with:
+          tag_name: build-${{ steps.tag.outputs.tag }}
+          release_name: Build ${{ steps.tag.outputs.tag }}
+      - name: Upload unsigned release APK
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./app/build/outputs/apk/release/app-release-unsigned.apk
+          asset_name: app-release-unsigned.apk
+          asset_content_type: application/apk
+      - name: Upload release bundle
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./app/build/outputs/bundle/release/app-release.aab
+          asset_name: app-release.aab
+          asset_content_type: application/aab
+      - name: Fetch public keystore
+        run: wget https://github.com/trixter127/GXtrm/raw/main/matrix.jks
+        shell: bash
+      - name: Sign release APK
+        run: |
+          apksigner="$(find $ANDROID_SDK_ROOT/build-tools -name apksigner | sort -r | head -n 1)"
+          "$apksigner" sign --ks matrix.jks --ks-key-alias Matrix --ks-pass pass:matrix1270 --key-pass pass:matrix1270 --in ./app/build/outputs/apk/release/app-release-unsigned.apk --out ./app/build/outputs/apk/release/app-release.apk
+        shell: bash
+      - name: Upload signed release APK
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./app/build/outputs/apk/release/app-release.apk
+          asset_name: app-release.apk
+          asset_content_type: application/apk

@@ -1,10 +1,10 @@
-package com.theflexproject.thunder.utils;
+package org.eu.trixtertempdrive.gxtrm.utils;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.fragments.UpdateAppFragment;
-import com.theflexproject.thunder.model.GitHubResponse;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.fragments.UpdateAppFragment;
+import org.eu.trixtertempdrive.gxtrm.model.GitHubResponse;
 
 import java.io.IOException;
 import java.util.concurrent.Executors;

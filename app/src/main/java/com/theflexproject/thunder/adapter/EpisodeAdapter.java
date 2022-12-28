@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.adapter;
+package org.eu.trixtertempdrive.gxtrm.adapter;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -27,12 +27,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
-import com.theflexproject.thunder.Constants;
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.TVShowInfo.Episode;
-import com.theflexproject.thunder.player.PlayerActivity;
-import com.theflexproject.thunder.utils.StringUtils;
+import org.eu.trixtertempdrive.gxtrm.Constants;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.TVShowInfo.Episode;
+import org.eu.trixtertempdrive.gxtrm.player.PlayerActivity;
+import org.eu.trixtertempdrive.gxtrm.utils.StringUtils;
 
 import java.util.List;
 

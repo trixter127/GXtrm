@@ -1,4 +1,4 @@
-package com.theflexproject.thunder.model.TVShowInfo;
+package org.eu.trixtertempdrive.gxtrm.model.TVShowInfo;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
@@ -6,7 +6,7 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.theflexproject.thunder.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
 
 import java.util.Date;
 

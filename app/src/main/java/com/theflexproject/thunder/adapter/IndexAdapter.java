@@ -1,10 +1,10 @@
-package com.theflexproject.thunder.adapter;
+package org.eu.trixtertempdrive.gxtrm.adapter;
 
-import static com.theflexproject.thunder.utils.IndexUtils.deleteIndex;
-import static com.theflexproject.thunder.utils.IndexUtils.disableIndex;
-import static com.theflexproject.thunder.utils.IndexUtils.enableIndex;
-import static com.theflexproject.thunder.utils.IndexUtils.getNoOfMedia;
-import static com.theflexproject.thunder.utils.IndexUtils.refreshIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.IndexUtils.deleteIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.IndexUtils.disableIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.IndexUtils.enableIndex;
+import static org.eu.trixtertempdrive.gxtrm.utils.IndexUtils.getNoOfMedia;
+import static org.eu.trixtertempdrive.gxtrm.utils.IndexUtils.refreshIndex;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -17,8 +17,8 @@ import android.widget.Toast;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.model.IndexLink;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.model.IndexLink;
 
 import java.util.List;
 

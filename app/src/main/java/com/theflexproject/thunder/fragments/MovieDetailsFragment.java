@@ -1,7 +1,7 @@
-package com.theflexproject.thunder.fragments;
+package org.eu.trixtertempdrive.gxtrm.fragments;
 
 import static android.content.Context.DOWNLOAD_SERVICE;
-import static com.theflexproject.thunder.Constants.TMDB_BACKDROP_IMAGE_BASE_URL;
+import static org.eu.trixtertempdrive.gxtrm.Constants.TMDB_BACKDROP_IMAGE_BASE_URL;
 
 import android.app.Activity;
 import android.app.DownloadManager;
@@ -36,15 +36,15 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
-import com.theflexproject.thunder.R;
-import com.theflexproject.thunder.adapter.FileItemAdapter;
-import com.theflexproject.thunder.adapter.ScaleCenterItemLayoutManager;
-import com.theflexproject.thunder.database.DatabaseClient;
-import com.theflexproject.thunder.model.Genre;
-import com.theflexproject.thunder.model.Movie;
-import com.theflexproject.thunder.model.MyMedia;
-import com.theflexproject.thunder.player.PlayerActivity;
-import com.theflexproject.thunder.utils.StringUtils;
+import org.eu.trixtertempdrive.gxtrm.R;
+import org.eu.trixtertempdrive.gxtrm.adapter.FileItemAdapter;
+import org.eu.trixtertempdrive.gxtrm.adapter.ScaleCenterItemLayoutManager;
+import org.eu.trixtertempdrive.gxtrm.database.DatabaseClient;
+import org.eu.trixtertempdrive.gxtrm.model.Genre;
+import org.eu.trixtertempdrive.gxtrm.model.Movie;
+import org.eu.trixtertempdrive.gxtrm.model.MyMedia;
+import org.eu.trixtertempdrive.gxtrm.player.PlayerActivity;
+import org.eu.trixtertempdrive.gxtrm.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
