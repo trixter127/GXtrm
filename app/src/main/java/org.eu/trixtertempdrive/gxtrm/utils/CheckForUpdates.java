@@ -15,7 +15,7 @@ import java.net.URL;
 
 public class CheckForUpdates extends BaseFragment {
     public GitHubResponse[] checkForUpdates() throws IOException {
-        String GET_URL = "https://api.github.com/repos/anujd64/GXtrm/releases";
+        String GET_URL = "https://api.github.com/repos/trixter127/GXtrm/releases";
         int versionCode = BuildConfig.VERSION_CODE;
         String versionName = BuildConfig.VERSION_NAME;
         GitHubResponse[] gitHubResponse;
