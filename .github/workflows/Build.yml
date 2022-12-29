@@ -10,6 +10,10 @@ on:
         description: "branch default main"
         required: false
         default: "main"
+      rversion:
+        description: "Release Version"
+        required: false
+        default: "v2.0.0"        
 jobs:
   Gradle:
     runs-on: ubuntu-latest
@@ -40,8 +44,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITUB_TOKEN }}
         with:
-          tag_name: build-${{ steps.tag.outputs.tag }}
-          release_name: Build ${{ steps.tag.outputs.tag }}
+          tag_name: build-${{ github.event.inputs.rversion }}
+          release_name: Build ${{ github.event.inputs.rversion }}
       - name: Upload unsigned release APK
         uses: actions/upload-release-asset@v1
         env:
@@ -61,12 +65,12 @@ jobs:
           asset_name: app-release.aab
           asset_content_type: application/aab
       - name: Fetch public keystore
-        run: wget https://github.com/trixter127/GXtrm/raw/main/matrix.jks
+        run: wget https://github.com/dishapatel010/Thunder/raw/Build/keystore.jks
         shell: bash
       - name: Sign release APK
         run: |
           apksigner="$(find $ANDROID_SDK_ROOT/build-tools -name apksigner | sort -r | head -n 1)"
-          "$apksigner" sign --ks matrix.jks --ks-key-alias Matrix --ks-pass pass:matrix1270 --key-pass pass:matrix1270 --in ./app/build/outputs/apk/release/app-release-unsigned.apk --out ./app/build/outputs/apk/release/app-release.apk
+          "$apksigner" sign --ks keystore.jks --ks-key-alias mydomain --ks-pass pass:password --key-pass pass:password --in ./app/build/outputs/apk/release/app-release-unsigned.apk --out ./app/build/outputs/apk/release/app-release.apk   
         shell: bash
       - name: Upload signed release APK
         uses: actions/upload-release-asset@v1
