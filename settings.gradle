@@ -16,5 +16,5 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "GXtrm"
+rootProject.name = "Thunder"
 include ':app'
